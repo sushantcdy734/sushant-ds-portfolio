@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Sushant Chaudhary",
+    "title": "Aspiring Data Scientist",
+    "tagline": "CS student building data-driven projects with Python, pandas and machine learning.",
+    "email": "sushantcdy734@gmail.com",
+    "location": "Nepal",
+    "github": "https://github.com/sushantcdy734",
+    "instagram": "https://www.instagram.com/cdysushant/?hl=en"
+  },
+  "skills": {
+    "Languages": ["Python", "SQL", "C#", "JavaScript"],
+    "Data": ["pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
+    "ML": ["scikit-learn", "TensorFlow (learning)"],
+    "Tools": ["Jupyter", "Git", "GitHub", "VS Code", "Streamlit"]
+  },
+  "projects": [
+    {
+      "title": "Coming soon",
+      "description": "My first data science project is in progress. Check back soon!",
+      "tags": ["pandas", "matplotlib"],
+      "notebook": "https://github.com/sushantcdy734",
+      "demo": ""
+    }
+  ],
+  "education": [
+    {
+      "period": "In Progress",
+      "title": "Bachelor's in Computer Science & Technology",
+      "org": "Currently pursuing"
+    },
+    {
+      "period": "Completed",
+      "title": "Higher Secondary (+2) — Science",
+      "org": "Science stream"
+    }
+  ]
+}
