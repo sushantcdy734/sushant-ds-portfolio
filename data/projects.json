@@ -16,11 +16,11 @@
   },
   "projects": [
     {
-      "title": "Coming soon",
-      "description": "My first data science project is in progress. Check back soon!",
-      "tags": ["pandas", "matplotlib"],
-      "notebook": "https://github.com/sushantcdy734",
-      "demo": ""
+      "title": "Nepal Rainfall Analysis",
+      "description": "Explored 45 years of Nepal rainfall data (1981–present) across 84 regions. Found strong monsoon seasonality, ~2.5x regional variation, and no strong long-term trend.",
+      "tags": ["Python", "pandas", "matplotlib", "Streamlit"],
+      "notebook": "https://github.com/sushantcdy734/nepal-rainfall-analysis/blob/main/notebooks/01_exploration.ipynb",
+      "demo": "https://nepal-rainfall-analysis.streamlit.app"
     }
   ],
   "education": [
