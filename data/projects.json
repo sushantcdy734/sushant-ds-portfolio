@@ -21,6 +21,13 @@
       "tags": ["Python", "pandas", "matplotlib", "Streamlit"],
       "notebook": "https://github.com/sushantcdy734/nepal-rainfall-analysis/blob/main/notebooks/01_exploration.ipynb",
       "demo": "https://nepal-rainfall-analysis.streamlit.app"
+    },
+    {
+      "title": "Nepal Data Assistant — AI Agent",
+      "description": "An AI agent that searches the web and does accurate math using tool calling. Built with Groq (GPT-OSS) and Streamlit. Remembers conversation context and chains tools together autonomously.",
+      "tags": ["Python", "AI Agent", "Groq", "GPT-OSS", "Streamlit"],
+      "notebook": "https://github.com/sushantcdy734/nepal-ai-agent",
+      "demo": "https://nepal-ai-agent.streamlit.app"
     }
   ],
   "education": [
