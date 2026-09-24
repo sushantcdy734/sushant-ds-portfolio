@@ -11,10 +11,25 @@
   "skills": {
     "Languages": ["Python", "SQL", "C#", "JavaScript"],
     "Data": ["pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
-    "ML": ["scikit-learn", "TensorFlow (learning)"],
-    "Tools": ["Jupyter", "Git", "GitHub", "VS Code", "Streamlit"]
+    "ML": ["scikit-learn", "Random Forest", "Cross-Validation"],
+    "Web": ["Flask", "Streamlit", "SQLite", "PostgreSQL"],
+    "Tools": ["Jupyter", "Git", "GitHub", "VS Code"]
   },
   "projects": [
+    {
+      "title": "Nepal Crop Yield Prediction",
+      "description": "ML project predicting crop yield from 45 years of Nepal rainfall data. Trained Random Forest with 5-fold cross-validation (R²=0.776). Built SQLite pipeline with analytical queries. Detected and removed feature leakage from the year column.",
+      "tags": ["Python", "scikit-learn", "SQL", "Streamlit", "ML"],
+      "notebook": "https://github.com/sushantcdy734/nepal-crop-yield/blob/main/notebooks/01_eda_and_model.ipynb",
+      "demo": "https://nepal-crop-yield.streamlit.app"
+    },
+    {
+      "title": "Nepal Data Assistant — AI Agent",
+      "description": "An AI agent that searches the web and does accurate math using tool calling. Built with Groq (GPT-OSS) and Streamlit. Streams responses live, remembers conversation context, and chains tools autonomously.",
+      "tags": ["Python", "AI Agent", "Groq", "GPT-OSS", "Streamlit"],
+      "notebook": "https://github.com/sushantcdy734/nepal-ai-agent",
+      "demo": "https://nepal-ai-agent.streamlit.app"
+    },
     {
       "title": "Nepal Rainfall Analysis",
       "description": "Explored 45 years of Nepal rainfall data (1981–present) across 84 regions. Found strong monsoon seasonality, ~2.5x regional variation, and no strong long-term trend.",
@@ -23,11 +38,11 @@
       "demo": "https://nepal-rainfall-analysis.streamlit.app"
     },
     {
-      "title": "Nepal Data Assistant — AI Agent",
-      "description": "An AI agent that searches the web and does accurate math using tool calling. Built with Groq (GPT-OSS) and Streamlit. Remembers conversation context and chains tools together autonomously.",
-      "tags": ["Python", "AI Agent", "Groq", "GPT-OSS", "Streamlit"],
-      "notebook": "https://github.com/sushantcdy734/nepal-ai-agent",
-      "demo": "https://nepal-ai-agent.streamlit.app"
+      "title": "CampusCart — Student Marketplace",
+      "description": "A full-stack student marketplace built with Flask. Uses SQLite for local development and PostgreSQL in production. Deployed on Render with live database support. Features user auth, cart, and seller dashboard.",
+      "tags": ["Python", "Flask", "SQLite", "PostgreSQL", "Render"],
+      "notebook": "https://github.com/sushantcdy734/campuscart",
+      "demo": "https://campuscart-yn8p.onrender.com"
     }
   ],
   "education": [
